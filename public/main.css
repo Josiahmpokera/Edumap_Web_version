@@ -1,0 +1,106 @@
+/* The Code below stands for Login Page only */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #d8d6d8;
+}
+.user_card {
+    height: 400px;
+    width: 350px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #f39c12;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+
+}
+.form_container {
+    margin-top: 10px;
+}
+.login_btn {
+    width: 100%;
+    background: #200f0e;
+    color: white;
+}
+.login_btn:focus {
+    box-shadow: none;
+    outline: 0px ;
+}
+.login_container {
+    padding: 0 2rem;
+}
+.input-group-text {
+    background: #200f0e;
+    color: white;
+    border: 0;
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+.input_user,
+.input_pass:focus {
+    box-shadow: none;
+    outline: 0px;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #944c44;
+}
+
+/*This is style for Home & Dashboard Decoration*/
+.home_card {
+    height: 80px;
+    width: 70px;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+
+}
+
+/*  Home card Decoration */
+.home_card:hover {
+    color: orangered;
+}
+
+
+/* Back-home Button */ 
+.back-home {
+    margin-top: -122px;
+}
+
+.twi{
+    transition: 0.5s;
+}
+.twi:hover {
+    transition: 1s;
+    transform: scale(1.7);
+}
+
+.fac{
+    transition: 0.5s;
+}
+.fac:hover {
+    transition: 0.5s;
+    transform: scale(1.7);
+}
+.int{
+    transition: 1s;
+}
+.int:hover {
+    transition: 1s;
+    transform: scale(1.7);
+}
